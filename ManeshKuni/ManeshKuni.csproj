@@ -134,6 +134,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.cyborg.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\12167849_10153164159769327_990187666_n.jpg" />
+    <Content Include="Content\img\event1.jpg" />
+    <Content Include="Content\img\tux.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -230,6 +233,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

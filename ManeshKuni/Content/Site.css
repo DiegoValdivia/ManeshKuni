@@ -1,16 +1,27 @@
 ﻿body {
-        background-image: url('/Content/img/tux.jpg');
+    background-image: url('/Content/img/tux.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.bg-black {
+    background-color: black;
+}
+
+img.resize-list{
+   width:110px;
+   margin-left:25px;
+}
+
+
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 100px;
-  background-color: inherit;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: inherit;
 }
 
 
@@ -35,7 +46,6 @@
 
 .parallax__layer--base {
     transform: translateZ(0);
-
 }
 
 .parallax__layer--back {

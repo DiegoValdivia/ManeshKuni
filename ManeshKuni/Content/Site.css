@@ -1,20 +1,27 @@
 ﻿body {
-    background-image: url('/Content/img/tux.jpg');
+    background-image: url('/Content/img/homeStudio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top:120px;
 }
 
 .bg-black {
     background-color: black;
 }
 
-img.resize-list{
-   width:110px;
-   margin-left:25px;
+img.resize-list {
+    width: 110px;
+    /*margin-left: 25px;*/
+    /*margin-top:10px;*/
 }
 
 section.contact {
-margin-top:100px
+    margin-top: 100px;
+}
+
+.sample-music-resize {
+    height: 150px;
+    /*margin-left:25px;*/
 }
 
 .footer {
@@ -26,9 +33,13 @@ margin-top:100px
     background-color: inherit;
 }
 
+.footer-style {
+margin-bottom:150px;
+}
+
 
 .container-fluid {
-    opacity: .96;
+    opacity: .90;
 }
 
 .parallax {
@@ -115,3 +126,30 @@ textarea {
 .validation-summary-valid {
     display: none;
 }
+
+@media (min-width: 768px) {
+
+/* top row */
+.col .well{ 
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;  
+}
+
+/* bottom row */
+.col-base{ 
+    margin-top: -15px; /* cut off top portion of bottom wells */
+}
+}
+
+@media (max-width: 767px) {
+.row.base{
+    display:none;
+}
+}
+
+
+.col-wrap{
+    overflow: hidden; 
+}
+
+
